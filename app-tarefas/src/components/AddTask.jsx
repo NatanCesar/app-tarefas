@@ -22,13 +22,13 @@ export default function AddTask() {
                 placeholder="Título"
                 value={title}
                 onChange={e => setTitle(e.target.value)}
-                style={{ padding: 8, width: '100%', marginBottom: 8 }}
+                style={{ paddingTop: 8, width: '100%', marginBottom: 8 }}
             />
             <input
                 placeholder="Descrição (opcional)"
                 value={description}
                 onChange={e => setDescription(e.target.value)}
-                style={{ padding: 8, width: '100%', marginBottom: 8 }}
+                style={{ paddingTop: 8, width: '100%', marginBottom: 8 }}
             />
             <button type="submit" style={styles.addBtn}>Adicionar tarefa</button>
         </form>

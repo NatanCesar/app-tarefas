@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <header style={{ padding: 12, borderBottom: '1px solid #eee' }}>
       <h1 style={{ margin: 0 }}>App de Tarefas</h1>
-      <div style={{ marginTop: 6, color: '#555' }}>
+      <div style={{ marginTop: 6, paddingTop: 22, color: '#555' }}>
         Totais: {total} · Concluídas: {completed}
       </div>
     </header>
