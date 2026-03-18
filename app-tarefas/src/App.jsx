@@ -8,7 +8,7 @@ function App() {
   return (
     <TaskProvider>
       <Header />
-      <main style={{ padding: 12 }}>
+      <main style={{ padding: 12, alignSelf: 'center' }}>
         <AddTask />
         <TaskList />
       </main>
